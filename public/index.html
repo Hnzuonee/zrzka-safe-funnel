@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tereza Osladilová – Official Hub</title>
+
+  <!--  Open Graph  -->
+  <meta property="og:title"       content="Tereza Osladilová – Official Links">
+  <meta property="og:description" content="One place for my socials & VIP content.">
+  <meta property="og:image"       content="https://TVOJE-DOMENA.com/foto.jpg">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://TVOJE-DOMENA.com">
+
+  <!-- Fonts + CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css?v=1">
+</head>
+<body>
+  <div class="card">
+    <img src="/foto.jpg" alt="Tereza Osladilová" class="pfp">
+
+    <h1 class="name">Tereza Osladilová</h1>
+    <p class="tagline">🔥 Official Links 🔥</p>
+
+    <!-- YouTube -->
+    <a class="btn youtube"
+       href="https://www.youtube.com/@TerezaOsladilov"
+       target="_blank" rel="noopener noreferrer">
+       ▶️ YouTube
+    </a>
+
+    <!-- VIP / OnlyFans -->
+    <form action="/.netlify/functions/redirect" method="POST">
+      <button class="btn vip" type="submit" aria-label="VIP Access">
+        💎 VIP Content
+      </button>
+    </form>
+
+    <!-- Twitter / X -->
+    <a class="btn twitter"
+       href="https://x.com/terka_osladil"
+       target="_blank" rel="noopener noreferrer">
+       🐦 X (Twitter)
+    </a>
+  </div>
+</body>
+</html>
